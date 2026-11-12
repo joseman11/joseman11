@@ -8,12 +8,12 @@
 
 <a href="https://josemanuel11sans.github.io/josemanuel11sans/"><img src="https://img.shields.io/badge/Portafolio-josemanuel11sans-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portafolio" /></a>
 <a href="https://kyloo.com.mx"><img src="https://img.shields.io/badge/Kyloo-Co--Founder-0369A1?style=for-the-badge&logo=vercel&logoColor=white" alt="Kyloo" /></a>
-<a href="https://github.com/josemanuel11sans"><img src="https://img.shields.io/badge/GitHub-josemanuel11sans-38BDF8?style=for-the-badge&logo=github&logoColor=0D1117" alt="GitHub" /></a>
+<a href="https://github.com/joseman11"><img src="https://img.shields.io/badge/GitHub-joseman11-38BDF8?style=for-the-badge&logo=github&logoColor=0D1117" alt="GitHub" /></a>
 <a href="mailto:sanchezsaldana89@gmail.com"><img src="https://img.shields.io/badge/Email-Contacto-7DD3FC?style=for-the-badge&logo=gmail&logoColor=0D1117" alt="Email" /></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=josemanuel11sans&label=PROFILE%20VIEWS&style=flat-square&color=0284C7" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=joseman11&label=PROFILE%20VIEWS&style=flat-square&color=0284C7" alt="Profile views" />
 
 </div>
 
@@ -30,6 +30,8 @@
 
 <div align="center">
   <img src="./assets/skills-orbit.svg" width="100%" alt="Mi sistema solar: AWS Cloud, Backend, Data/ETL, Full Stack y DevOps orbitando alrededor de José" />
+  <br/>
+  <sub><b>AWS Cloud</b> · Glue, Redshift, Athena, Lambda &nbsp;|&nbsp; <b>Backend</b> · Python, Java, Spring Boot &nbsp;|&nbsp; <b>Data/ETL</b> · Medallion, PySpark &nbsp;|&nbsp; <b>Full Stack</b> · React, TypeScript, Node &nbsp;|&nbsp; <b>DevOps</b> · Docker, Linux, GitLab CI</sub>
 </div>
 
 <img src="./assets/pixel-divider.svg" width="100%" alt="" />
@@ -142,10 +144,10 @@ Construcción de software a la medida y soluciones tecnológicas para clientes.
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=josemanuel11sans&theme=github_dark&title_color=38BDF8&text_color=BAE6FD&bg_color=0D1117&border_color=0369A1&icon_color=0284C7&chart_color=0284C7" width="49%" alt="Stats" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=josemanuel11sans&theme=github_dark&title_color=38BDF8&text_color=BAE6FD&bg_color=0D1117&border_color=0369A1&icon_color=0284C7&chart_color=38BDF8" width="49%" alt="Top languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joseman11&theme=github_dark&title_color=38BDF8&text_color=BAE6FD&bg_color=0D1117&border_color=0369A1&icon_color=0284C7&chart_color=0284C7" width="49%" alt="Stats" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=joseman11&theme=github_dark&title_color=38BDF8&text_color=BAE6FD&bg_color=0D1117&border_color=0369A1&icon_color=0284C7&chart_color=38BDF8" width="49%" alt="Top languages" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=josemanuel11sans&bg_color=0D1117&color=BAE6FD&line=0284C7&point=38BDF8&area=true&area_color=0369A1&hide_border=false&border_color=0369A1&custom_title=Contribution%20Activity" width="98%" alt="Contribution activity graph" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=joseman11&theme=github-dark-blue&background=0D1117&border=0369A1&stroke=0284C7&ring=FF9900&fire=FF9900&currStreakLabel=38BDF8&sideLabels=BAE6FD&dates=6E7681&currStreakNum=F0F9FF&sideNums=F0F9FF&hide_border=false" width="70%" alt="Racha de contribuciones" />
 
 </div>
 
@@ -154,9 +156,9 @@ Construcción de software a la medida y soluciones tecnológicas para clientes.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/josemanuel11sans/josemanuel11sans/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/josemanuel11sans/josemanuel11sans/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/josemanuel11sans/josemanuel11sans/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake comiendo mis contribuciones" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joseman11/joseman11/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joseman11/joseman11/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/joseman11/joseman11/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake comiendo mis contribuciones" />
 </picture>
 
 </div>

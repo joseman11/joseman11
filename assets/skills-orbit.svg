@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+  <style>
+    .tw1 { animation: tw 2.4s ease-in-out infinite; }
+    .tw2 { animation: tw 3.3s ease-in-out infinite 1s; }
+    @keyframes tw { 0%,100% { opacity: .15; } 50% { opacity: 1; } }
+
+    .sun { transform-box: fill-box; transform-origin: center; animation: pulse 3s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+
+    .node { transform-box: fill-box; transform-origin: center; animation: nodepulse 3.2s ease-in-out infinite; }
+    @keyframes nodepulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.18); } }
+  </style>
+  <defs>
+    <radialGradient id="sun" cx="40%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#F0F9FF"/><stop offset="50%" stop-color="#7DD3FC"/><stop offset="100%" stop-color="#0369A1"/>
+    </radialGradient>
+    <radialGradient id="halo"><stop offset="0%" stop-color="#0284C7" stop-opacity=".5"/><stop offset="100%" stop-color="#0284C7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="460" rx="18" fill="#0D1117"/>
+  <rect x="1.5" y="1.5" width="1197" height="457" rx="17" fill="none" stroke="#0369A1" stroke-width="3"/>
+  <text x="36" y="46" fill="#38BDF8" font-size="16" font-weight="700">// mi sistema solar · lo que construyo</text>
+  <text x="1164" y="46" text-anchor="end" fill="#6E7681" font-size="13">backend · cloud · data</text>
+
+  <g shape-rendering="crispEdges">
+    <rect class="tw1" x="693" y="137" width="4" height="4" fill="#0284C7"/>
+    <rect class="tw2" x="128" y="97" width="2" height="2" fill="#38BDF8"/>
+    <rect class="tw1" x="148" y="319" width="3" height="3" fill="#BAE6FD"/>
+    <rect class="tw2" x="206" y="282" width="4" height="4" fill="#BAE6FD"/>
+    <rect class="tw1" x="522" y="106" width="4" height="4" fill="#BAE6FD"/>
+    <rect class="tw2" x="283" y="174" width="2" height="2" fill="#0284C7"/>
+    <rect class="tw1" x="842" y="85" width="3" height="3" fill="#BAE6FD"/>
+    <rect class="tw2" x="1170" y="128" width="3" height="3" fill="#38BDF8"/>
+    <rect class="tw1" x="325" y="336" width="2" height="2" fill="#0284C7"/>
+    <rect class="tw2" x="661" y="346" width="3" height="3" fill="#BAE6FD"/>
+    <rect class="tw1" x="451" y="314" width="4" height="4" fill="#38BDF8"/>
+    <rect class="tw2" x="983" y="359" width="4" height="4" fill="#38BDF8"/>
+    <rect class="tw1" x="1043" y="250" width="4" height="4" fill="#38BDF8"/>
+    <rect class="tw2" x="179" y="120" width="4" height="4" fill="#BAE6FD"/>
+    <rect class="tw1" x="730" y="137" width="4" height="4" fill="#38BDF8"/>
+    <rect class="tw2" x="1047" y="356" width="4" height="4" fill="#BAE6FD"/>
+    <rect class="tw1" x="942" y="205" width="4" height="4" fill="#0284C7"/>
+    <rect class="tw2" x="740" y="71" width="4" height="4" fill="#38BDF8"/>
+  </g>
+
+  <path id="o0" d="M 790 245 A 190 62 0 1 1 410 245 A 190 62 0 1 1 790 245 Z" fill="none" stroke="#0369A1" stroke-width="1.4" stroke-dasharray="3 7" opacity=".9"/>
+  <path id="o1" d="M 920 245 A 320 104 0 1 1 280 245 A 320 104 0 1 1 920 245 Z" fill="none" stroke="#0369A1" stroke-width="1.4" stroke-dasharray="3 7" opacity=".9"/>
+  <path id="o2" d="M 1050 245 A 450 150 0 1 1 150 245 A 450 150 0 1 1 1050 245 Z" fill="none" stroke="#0369A1" stroke-width="1.4" stroke-dasharray="3 7" opacity=".9"/>
+
+  <circle cx="600" cy="245" r="90" fill="url(#halo)"/>
+  <circle class="sun" cx="600" cy="245" r="44" fill="url(#sun)"/>
+  <text x="600" y="250" text-anchor="middle" fill="#082F49" font-size="15" font-weight="800">JOSÉ</text>
+
+  <g>
+    <animateMotion dur="26s" repeatCount="indefinite" begin="-0.0s"><mpath href="#o0"/></animateMotion>
+    <circle r="24" fill="#FF9900" opacity=".18"/>
+    <circle class="node" r="16" fill="#FF9900"/>
+    <rect x="-66" y="-43" width="132" height="27" rx="7" fill="#0D1117" fill-opacity=".88" stroke="#0369A1" stroke-width="1"/>
+    <text y="-24" text-anchor="middle" fill="#F0F9FF" font-size="14" font-weight="800">AWS Cloud</text>
+  </g>
+  <g>
+    <animateMotion dur="26s" repeatCount="indefinite" begin="-13.0s"><mpath href="#o0"/></animateMotion>
+    <circle r="20" fill="#BAE6FD" opacity=".18"/>
+    <circle class="node" r="12" fill="#BAE6FD" style="animation-delay:.5s"/>
+    <rect x="-52" y="-39" width="104" height="27" rx="7" fill="#0D1117" fill-opacity=".88" stroke="#0369A1" stroke-width="1"/>
+    <text y="-20" text-anchor="middle" fill="#F0F9FF" font-size="14" font-weight="800">Backend</text>
+  </g>
+  <g>
+    <animateMotion dur="40s" repeatCount="indefinite" begin="-10.0s"><mpath href="#o1"/></animateMotion>
+    <circle r="26" fill="#0284C7" opacity=".18"/>
+    <circle class="node" r="18" fill="#0284C7" style="animation-delay:1s"/>
+    <rect x="-60" y="-45" width="120" height="27" rx="7" fill="#0D1117" fill-opacity=".88" stroke="#0369A1" stroke-width="1"/>
+    <text y="-26" text-anchor="middle" fill="#F0F9FF" font-size="14" font-weight="800">Data / ETL</text>
+  </g>
+  <g>
+    <animateMotion dur="40s" repeatCount="indefinite" begin="-30.0s"><mpath href="#o1"/></animateMotion>
+    <circle r="21" fill="#7DD3FC" opacity=".18"/>
+    <circle class="node" r="13" fill="#7DD3FC" style="animation-delay:1.5s"/>
+    <rect x="-58" y="-41" width="116" height="27" rx="7" fill="#0D1117" fill-opacity=".88" stroke="#0369A1" stroke-width="1"/>
+    <text y="-22" text-anchor="middle" fill="#F0F9FF" font-size="14" font-weight="800">Full Stack</text>
+  </g>
+  <g>
+    <animateMotion dur="60s" repeatCount="indefinite" begin="-36.0s"><mpath href="#o2"/></animateMotion>
+    <circle r="23" fill="#0EA5E9" opacity=".18"/>
+    <circle class="node" r="15" fill="#0EA5E9" style="animation-delay:2s"/>
+    <rect x="-50" y="-43" width="100" height="27" rx="7" fill="#0D1117" fill-opacity=".88" stroke="#0369A1" stroke-width="1"/>
+    <text y="-24" text-anchor="middle" fill="#F0F9FF" font-size="14" font-weight="800">DevOps</text>
+  </g>
+</svg>

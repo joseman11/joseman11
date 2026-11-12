@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24">
+  <style>
+    .run { animation: run 6s linear infinite; }
+    @keyframes run { from { transform: translateX(-60px); } to { transform: translateX(1260px); } }
+    .run2 { animation: run2 11s linear infinite 2.5s; opacity: .55; }
+    @keyframes run2 { from { transform: translateX(1260px); } to { transform: translateX(-60px); } }
+    .t { animation: t 2.4s ease-in-out infinite; }
+    @keyframes t { 0%,100% { opacity: .3; } 50% { opacity: 1; } }
+  </style>
+  <g shape-rendering="crispEdges">
+    <rect x="0" y="10" width="140" height="4" fill="#0369A1"/>
+    <rect x="152" y="10" width="40" height="4" fill="#0284C7"/>
+    <rect x="204" y="10" width="200" height="4" fill="#0369A1"/>
+    <rect x="416" y="10" width="24" height="4" fill="#FF9900"/>
+    <rect x="452" y="10" width="260" height="4" fill="#0369A1"/>
+    <rect x="724" y="10" width="60" height="4" fill="#0284C7"/>
+    <rect x="796" y="10" width="220" height="4" fill="#0369A1"/>
+    <rect x="1028" y="10" width="30" height="4" fill="#FF9900"/>
+    <rect x="1070" y="10" width="130" height="4" fill="#0369A1"/>
+
+    <rect class="t" x="300" y="4" width="4" height="4" fill="#BAE6FD"/>
+    <rect class="t" x="620" y="16" width="4" height="4" fill="#BAE6FD" style="animation-delay:.8s"/>
+    <rect class="t" x="940" y="4" width="4" height="4" fill="#BAE6FD" style="animation-delay:1.4s"/>
+
+    <g class="run">
+      <rect x="0" y="8" width="10" height="8" fill="#F0F9FF"/>
+      <rect x="-14" y="10" width="12" height="4" fill="#38BDF8" opacity=".7"/>
+      <rect x="-28" y="11" width="12" height="2" fill="#0284C7" opacity=".5"/>
+    </g>
+    <g class="run2">
+      <rect x="0" y="10" width="6" height="4" fill="#FF9900"/>
+      <rect x="-12" y="11" width="10" height="2" fill="#F59E0B" opacity=".7"/>
+    </g>
+  </g>
+</svg>
